@@ -1,0 +1,57 @@
+#headerpic{
+    max-height:100px;
+    width: auto;
+    background-color: red;
+}
+#inhoud{
+    background-color: blanchedalmond;
+}
+body{
+    font-family: 'Alkatra', cursive;
+}
+footer{
+    height: 200px;
+    padding-top: 75px;
+}
+li{
+ list-style: none;
+}
+form{
+    padding-top: 150px;
+}
+#verzend{
+    width: 150px;
+    margin: auto;
+    padding-top: 10px;
+    margin-bottom: 18px;
+}
+#vraag{
+    padding-top: 100px;
+}
+#inhoud2{
+    padding-top: 5px;
+}
+@keyframes header {
+    0% {color: white;}
+    25% {color: red;}
+    50% {color: brown;}
+    100% {color: black;}
+    }
+    h2{
+    padding-left: 10px;
+    padding-top: 25px;
+    animation-name: header;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    }
+    .knop:hover{
+        background-color: black;
+        color: white;
+        margin: 1px; 
+    }
+    #verzenden:hover{
+        background-color: grey;
+        color: white; 
+    }
